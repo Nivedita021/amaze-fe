@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+   
+    
+    
+}
+body{
+    background-color: rgb(220, 218, 218);
+    
+}
+
+.mains{
+    background-image: url('back.jpg');
+    background-size: cover;
+    height: 380px;
+    margin: 0 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+.navbar{
+    height: 60px;
+    color: white;
+    background-color: #231F20;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.lowernavbar{
+    height: 40px;
+    background-color:#232F3E;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    width: 135px;
+    display: block;
+}
+.logos{
+   background-image: url('amazon-footer.png');
+   background-size: cover;
+   padding: 2px;
+   height: 35px;
+   border: 2px solid #231F20;
+   
+}
+
+.flex-del{
+    border: 2px solid #231F20; 
+    width: 90px;
+    height:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-del2{
+    border: 2px solid #231F20; 
+    width: 120px;
+    height:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.flex-del3{
+    border: 2px solid #231F20; 
+    width: 80px;
+    height:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.country{
+    margin-left: 2px;
+}
+.logos:hover,.flex-del:hover,.flex-del2:hover, .flex-del3:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.nav-deliver{
+    font-size: 0.7rem;
+    color:rgba(255, 255, 255, 0.888);
+    padding-left: 12px;
+    
+}
+.nav-loc{
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+}
+.nav-delivers {
+    font-size: 0.7rem;
+    color:rgba(255, 255, 255, 0.888);
+    
+    
+}
+.nav-locs{
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+}
+
+.search-am{
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    height: 50px;
+    width: 850px;
+    border: 0.5px solid #231F20;
+    border: 5px;
+    align-items: center;
+    
+}
+input{
+    width: 100%;
+    height: 40px;
+    padding: 7px 10px 7px 10px;
+    border: none;
+    background-color: white;
+    
+}
+#selectdeal{
+    background-color: #D4D4D4;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    color: #232F3E;
+    border: none;
+    padding: 2px;
+    border-top-left-radius:4px;
+    border-bottom-left-radius: 4px;
+}
+#search-ic{
+    
+    background-color: #F3A847;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    border: none;
+    border-top-right-radius:4px;
+    border-bottom-right-radius: 4px;
+}
+#selectdeal:hover{
+    border-left: none;
+    border: 3px solid darkorange;
+    border-radius: 2px;
+}
+input:hover{
+    border: 3px solid darkorange;
+    border-radius: 2px;
+}
+::placeholder{
+    color: rgb(117, 111, 111);
+    font-size: 17px;
+}
+.lang{
+    width: 70px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #231F20;
+    border-radius: 2px;   
+}
+.lang:hover{
+    border: 1px solid white;
+    border-radius: 2px;   
+}
+.flags{
+    height: 16px;
+    width:18px;
+    background-image: url('america.png');
+    background-size: cover;
+}
+#langc{
+    background-color: #231F20;
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: white;
+    border: none;
+
+
+}
+option{
+    font-weight: bold;
+    color: white;
+}
+.cart{
+    height: 50px;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+
+}
+.bars{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.spans{
+    border: none;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    line-height: 10px;
+    padding: 3px;
+    color: white;
+    height:30px;
+    width: fit-content;
+}
+.spans:hover{
+    border: 1px solid white;
+    border-radius: 2px; 
+}
+.spans:active{
+    border: 1px solid white;
+    border-radius: 2px; 
+    color:aliceblue;
+}
+
+.hero-content{
+    height: 40px;
+    text-align: center;
+    margin: 0 0.7rem;
+    width: 1400px;
+    font-size: 0.9rem;
+    line-height: 40px;
+    background-color: whitesmoke;
+    color: black;
+    margin-bottom: 30px;
+    
+    
+}
+.hero-content a{
+    text-decoration: none;
+    color: #007185;
+}
+.item-box{
+    width:  23%;
+    height: 385px;
+    margin-top: 10px;
+    padding:20px 0px 15px;
+    background-color: white;
+    
+}
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, #01473F ,#01473F,#F0DD8F,#6B4917);
+    margin: 0 0.7rem;
+     
+}
+.imagebox{
+
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+h2{
+    font-size: 21px;
+}
+
+.items a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #00859d;
+    margin:30px 0px;
+
+}
+.hero-content a:hover{
+    color: #C7511F;
+    text-decoration: underline;
+}
+.items a:hover{
+    color: #C7511F;
+
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.sign-in{
+    height: 300px;
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.sign-button{
+    height: 28px;
+    width: 238px;
+    background-image: linear-gradient(to bottom, #FFD772, #FFC42E);
+    border: 1px solid rgb(255, 149, 0);
+    border-radius: 3px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #ffe093;
+    margin-top: 6px;
+}
+pre a{
+    text-decoration: none;
+    color: #00859d;
+}
+pre a:hover{
+    color: #C7511F;
+}
+.backtotop{
+    color: white; 
+    text-align: center; 
+    font-size: 14px; 
+    background-image:linear-gradient(to bottom,#324456,#324456ee); 
+    height: 45px;
+    line-height: 45px;
+}
+.backtotop:hover{
+    background-image:linear-gradient(to bottom,#324456d3,#2d3d4ecc, #232f3ecc); 
+}
+.quicklinks{
+    background-color: #232F3E;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.241);
+}
+.logos-footer{
+    background-image: url(amazon-footer.png);
+    height: 35px;
+    width: 111px;
+    background-size: cover;
+    margin-top: 14px;
+    cursor: pointer;
+}
+.bot-hero{
+    background-color: #232F3E;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.linked{
+    color: rgba(255, 255, 255, 0.841);
+    text-decoration: none;
+    font-size: 14px;
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    margin: 40px 20px 40px 20px;
+
+}
+.linked a:hover{
+    text-decoration: underline;
+}
+.footer-button{
+    display: flex;
+    margin: 10px;
+}
+.b1{
+    color:rgba(255, 255, 255, 0.688);
+    cursor: pointer;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.688);
+    border-radius: 2px;
+    line-height: 35px;
+    margin: 4px;
+}
+.b2{
+    color:rgba(255, 255, 255, 0.688);
+    cursor: pointer;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.688);
+    border-radius: 2px;
+    line-height: 35px;
+    margin: 4px;
+
+
+}
+.b3{
+    color:rgba(255, 255, 255, 0.688);
+    cursor: pointer;
+    height: 35px;
+    width: 130px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.688);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 35px;
+    margin: 4px;
+
+
+}
+.footer-last{
+      background-color: #131A22;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgba(255, 255, 255, 0.634);
+
+}
+.link-div{
+    height: 300px;
+    width:7%;
+    font-size: 12px;
+    display: flex;
+    margin-right: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.link-div a{
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+.link-div a:hover{
+text-decoration: underline;
+}
+.footer-end{
+    background-color: #131A22;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:70px;
+    color: rgba(255, 255, 255, 0.892);
+    font-size: 12px;
+}
+.end1{
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    width: 500px;
+
+}
+.end1 a:hover{
+text-decoration: underline;
+}
